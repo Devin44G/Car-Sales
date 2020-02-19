@@ -1,6 +1,6 @@
 import React from 'react';
 import AdditionalFeature from './AdditionalFeature';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const AdditionalFeatures = () => {
   const features = useSelector( state => state.additionalFeatures );
