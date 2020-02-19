@@ -13,7 +13,6 @@ const App = () => {
   const buyItem = item => {
     // dipsatch an action here to add an item
   };
-  console.log(car);
 
   return (
     <div className="boxes">
